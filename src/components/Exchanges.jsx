@@ -40,7 +40,7 @@ const Exchanges = () => {
     loading ? <h1> loading</h1> :(exchangesData.map((i)=><div key={i.id}>
       <img src="i.image" alt="logo" />
       <div>
-        <p>{i.trust_score_rank}</p>
+        <p>{i.id}</p>
         <p>{i.name}</p>
       </div>
     </div>))
